@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+   <html>
+<head>
+   <meta charset="UTF-B">
+   <meta name ="keyword" content="movie,cinema,tickets">
+<title> cinema time </title>
+   <link rel="stylesheet" href="home_style.css">
+
+<!--pic icon for website-->
+   <link rel="shorttcut icon" href="pic/icon.jpg">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <style>
+   .c55{
+     font-size: 25px;
+     color: rgb(17, 20, 20);
+     background-color: rgb(153, 139, 185);
+     text-align: center;
+   }
+  
+   .c44{
+   font-size:25px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  text-shadow: 3px 2px rgb(151, 139, 179);
+  background-color: rgb(153, 175, 216);
+  color: #000800;
+}
+.c76{
+  font-style: italic;
+}
+#overflowTest {
+            background: #000800;
+            color:white;
+            padding: 50px;
+            width: 50%;
+            height: 200px;
+            overflow: scroll;
+            border: 1px solid rgb(153, 139, 185);
+          }  
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+  max-width: 1000px;
+  margin: auto;
+
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  text-align: center;
+  padding: 25px;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width:4%;
+  margin-top: -50px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 12px;
+  background:black;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color:whitesmoke;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+ </style>
+
+
+</head>
+<body>
+ <nav>
+
+<!--menu  
+ قاىمه منسدله-->
+ <!--language-->
+<a class="language" href="ci_home.html" title="تغيير اللغة">English</a>
+ <ul class="menu"> 
+  <li><a href="ci_home.html">Home</a></li>
+ <li class="has-children">
+ <li><a href="Food&Drinks.html">Food&Drinks</a>
+      <ul>
+                 <li ><a  href="online-delivery.html">delivery</a></li>
+                 <li ><a  href="order-food-and-drinks-online.html">Online ordering </a></li>
+                 <li ><a  href="menus.html">Menus</a></li> 
+                </ul></li>
+     <li><a href="Movie.html">Moveis</a>
+          
+    <li><a href="ticket-offer.html">Ticket shows</a></li>
+    <li><a href="way.html">Ways to watch </a>
+        <ul>  
+               <li ><a  href="family&friends.html">family&friends</a></li>
+               <li ><a  href="imax.html">imax</a></li>
+               <li ><a  href="kids.html">kids</a></li>
+               <li ><a  href="gold.html">gold</a></li>
+               <li ><a  href="vip.html">vip</a></li>
+  </ul></li></ul>
+
+    <aside class="selectpicker-block 555-location">
+        <section class="language" id="555-locations">                         
+            <select class="selectpicker" id="555locations">
+                <option value=""></option> 
+                <option value="002">jeddha</option>
+                <option value="003">Riyadh</option>
+            </select>
+        </section>
+    </aside>
+    <section class="side-nav-overlay"></section>
+
+<!--logo-->
+<figure class="logoo"><a href="javascript:HeaderMenu('/','Home')">
+  <img src="pic/logo.jpeg" alt="logo" /></a></figure>
+<aside class="amc-profile">
+</nav>
+<br>
+
+<MARQUEE class="c44" HEIGHT="50" WIDTH="95%" HSPACE="30">
+  Watch with us the funnest and most beautiful exclusive movies
+</MARQUEE>
+  <section id="main">
+        <!---            ->h1 class="show-heading">What is showing now?</h1>-->
+<h1 class="show-heading">What is showing now?</h1><br>
+<div class="mySlides" >
+  <a href="bad_boys.html">
+<img src="pic/img1.jpeg"></div></a>
+
+<div class="mySlides">
+  <a href="joker.html">
+<img src="pic/img2.jpg"></div></a>
+
+<div class="mySlides">
+  <a href="dragon.html">
+    <img src="pic/img3.jpg"></div></a>
+
+<div class="mySlides">
+  <a href="mulan.html">
+<img src="pic/img4.jpg"></div></a> <br>
+<div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+
+
+  </div>
+   <script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+      </script>
+
+</div>
+
+         <br> <center>
+      <section class="containerr">
+      <TABLE class="c55" BORDER="0"> 
+        <TR><TD> </TD>
+      <TD><img src="pic/pic13.png" alt="" width="500px" height="500px" />
+      <td><br><p>Exclusively</p>
+       <p> Car cinema Enjoy with your family or friends in your cars The site </p>
+        <p> can accommodate more than 150 vehicles per display, for your safety</p></td>
+      </TR>
+        </TABLE></center><br><br>
+        </section>
+       
+          <center>                    
+<section class="c76">
+<h1> Frequently Asked Questions </h1>
+<div id="overflowTest">
+<p> In compliance with the decisions of the General Authority for Audiovisual Media, and after our follow-up and our comprehensive evaluation of health and safety measures, VOX Cinemas has reopened in the Kingdom of Saudi Arabia. The health and safety of our employees and guests remains our top priority and we have taken all necessary precautions to ensure they reopen safely now. </p>
+<p> During these difficult times, we appreciate that you may have concerns and want to give you peace of mind by answering our most common questions. </p>
+<p> If you have any additional questions or inquiries, please feel free to contact our Customer Service Team (enter relevant contact details). </p>
+<p> We look forward to welcoming you again. </p>
+<h3> Is it safe to return to 555 cinemas? </h3>
+<p> Your health and safety remains our number one priority. We would like to assure you of the decision to reopen in accordance with the guidelines of the Saudi Ministry of Health and we have taken all necessary precautions to ensure that it reopens safely. During the temporary closure time, we have carried out comprehensive and up-to-date cleaning and disinfection processes for the entire building and have implemented advanced safety protocols, designed to ensure our employees and guests peace of mind and enjoy a safe and comfortable experience. </p>
+<h3> What health and safety measures have been taken to ensure that returns are safe? </h3>
+<p> In addition to our strict hygiene and sterilization standards, we have put in place modern measures and procedures that ensure the health and safety of our guests and employees. Our employees clean and sterilize surfaces after every interaction or contact from guests, especially the points where there is frequent contact such as cashiers, points of sale and payment terminals. </p>
+<h3> How do you ensure the health and safety of your employees? </h3>
+<p> The health and safety of our employees and our guests remains our top priority. We have put in place strict measures to ensure the safety of our business and carry out improved cleaning and disinfection periodically. </p>
+<p> We are in regular contact with our staff to ensure they are aware of preventive measures and safety precautions. It is now imperative for employees to wear a face mask and gloves, which we will provide for them. As an extra precaution, we also take employees' temperature when they arrive at work </p>
+<h3> How will the physical distancing be enforced? </h3>
+<p> Guests are reminded to maintain physical distancing at all times and we have put in place additional measures to ensure this is in place such as installing signage and deploying Safe Distance Ambassadors to guide guests on best physical distancing practices. Capacity in our halls has been reduced to 50%. We have also reduced occupancy in other public areas such as bathrooms and elevators. </p>
+<h3> Will the business hours be the same? </h3>
+<p> Yes, our business hours will remain the same. </p>
+<h3> Do I need to wear a face mask and gloves? </h3>
+<p> In line with government regulations, it is now mandatory for guests to wear a face mask. </p>
+<h3> Are there restrictions for specific age groups? </h3>
+<p> 555 cinemas across the Kingdom of Saudi Arabia are open to guests of all ages, in line with government guidelines. </p>
+<h3> Is it safe to order food? </h3>
+<p> We have extensive measures to ensure the highest levels of food safety such as temperature monitoring and recording to ensure it is safe to consume. Employees also follow strict safety protocols which include sterilizing work stations every 30 minutes and washing their hands at least every 20 minutes before handling food. Guests can also pre-order their food online and we also offer a contactless pick-up service to reduce physical contact </p>
+ <h2> General Information </h2>
+<p> 3D glasses for all experiences can be purchased separately for SAR 3.00 at the ticket counter. All IMAX tickets are exempt from this fee. </p>
+<p> SAR 5.00 of the reservation fee will be applied to all tickets booked on the website. </p>
+<p> <strong> What are the different age ratings for movies? </strong> </p>
+<p> Detailed information for each evaluation as reported by <strong> General Authority for Audiovisual Media </strong> </p>
+<p> 555 cinemas. Some of the films will be shown that have obtained an age rating from the General Authority for Audiovisual Media. </p>
+ <p> Entry is permitted for persons aged 15 and over. A valid ID card must be presented at the cinema. </p>
+   <p> Entry is permitted for persons aged 12 and over. A valid ID card must be presented at the cinema. </p>
+ <p> Parents must accompany guests under the age of 12. The content may be inappropriate for children.</p>
+   <p> Parents are advised to watch out for children as content may be inappropriate.</p>
+  <p> For all guests aged 3 and over</p>
+<p> Please note that not following the age assessment is against the law. Even in the company of children. </p>
+
+</div></section></center><br><br>
+
+
+
+
+<div class="div4style">
+			
+  <p><strong>Our company</strong></p>
+     <p>made it by saja and samah </p>
+     <p>our name in socil media is 555 cinemas </p>
+           <p>u can take call us in number +96635537 </p>
+     <p>hope u enjoy and stay safe </p>
+     <a href="#" class="fa fa-instagram"></a>
+     <a href="#" class="fa fa-twitter"></a>
+     <a href="#" class="fa fa-snapchat-ghost"></a>
+</div>
+     <hr>
+  </section>
+ 
+</body>
+ <style >
+ 
+
+ </style>
+ </html>
